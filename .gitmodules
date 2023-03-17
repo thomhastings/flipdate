@@ -1,0 +1,12 @@
+[submodule "Flipper-IRDB"]
+	path = Flipper-IRDB
+	url = https://github.com/logickworkshop/Flipper-IRDB
+[submodule "Flipper_Zero-BadUsb"]
+	path = Flipper_Zero-BadUsb
+	url = https://github.com/UNC0V3R3D/Flipper_Zero-BadUsb
+[submodule "unleashed-extra-pack"]
+	path = unleashed-extra-pack
+	url = https://github.com/xMasterX/unleashed-extra-pack
+[submodule "flipper-music-files"]
+	path = flipper-music-files
+	url = https://github.com/Tonsil/flipper-music-files
