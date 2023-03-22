@@ -9,7 +9,7 @@ The following repositories are included via `git submodule`:
 * [`Flipper-IRDB` Many IR dumps for various appliances](https://github.com/logickworkshop/Flipper-IRDB)
 * [`Flipper_Zero-BadUsb` Yet another BadUSB collection](https://github.com/UNC0V3R3D/Flipper_Zero-BadUsb)
 * [`unleashed-extra-pack` Extra apps pack for Unleashed firmware](https://github.com/xMasterX/unleashed-extra-pack)
-* [`flipper-music-files` Smaller collection of music files for FlipperZero Music Player](https://github.com/Tonsil/flipper-music-files)
+* [`flipper-music-files` Small collection of music files for FlipperZero Music Player](https://github.com/Tonsil/flipper-music-files)
 
 ### Update Repositories
 The included repositories can be updated by running the command `git submodule update --remote`.
