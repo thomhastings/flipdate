@@ -1,6 +1,9 @@
 # flipdate
 script and metarepo for updating my Flipper Zero
 
+## Cloning
+`git clone https://github.com/thomhastings/flipdate --recurse-submodules`  
+
 ### Background
 I wanted to stop doing all this manually. So I tried to automate at least part of it.
 
