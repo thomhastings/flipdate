@@ -7,3 +7,6 @@
 [submodule "flipper-music-files"]
 	path = flipper-music-files
 	url = https://github.com/Tonsil/flipper-music-files
+[submodule "all-the-plugins"]
+	path = all-the-plugins
+	url = https://github.com/xMasterX/all-the-plugins
