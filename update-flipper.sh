@@ -1,8 +1,8 @@
 #!/bin/bash
 # update flipper script
 # (c) Thom Hastings 2023 GNU General Public License v3.0
-# update my Flipper Zero with all my favourite repositories
-# clone repo https://github.com/thomhastings/flipdate and run
+# update my Flipper Zero firmware and SD card with all my favourite repositories
+# clone repo https://github.com/thomhastings/flipdate with --recurse-submodules and run
 
 # update self
 echo "Updating self..."
@@ -11,6 +11,8 @@ git pull
 # update submodules
 echo "Updating all submodules..."
 git submodule update --remote
+
+# TODO: download and flash latest firmware (but how to automate?)
 
 # TODO: mount SD card, copy files, unmount, prompt user to eject
 # or better yet, just arrange some files to copy over drag'n'drop
