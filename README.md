@@ -2,7 +2,7 @@
 script and metarepo for updating my Flipper Zero
 
 ## Cloning
-`git clone https://github.com/thomhastings/flipdate --recurse-submodules`  
+`git clone https://github.com/thomhastings/flipdate --recurse-submodules` Make sure to get the submodules.  
 
 ## Usage
 Run `update-flipper.sh`, then copy the contents of the `flipper-root` folder via drag'n'drop over to a typically formatted Flipper SD card filesystem. There should already be folders of the same name to merge contents with. For speed plug in the SD card directly, don't use qFlipper, it takes forever.
