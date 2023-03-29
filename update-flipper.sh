@@ -13,6 +13,7 @@ echo "Updating all submodules..."
 git submodule update --remote
 
 # TODO: download and flash latest firmware (but how to automate?)
+# also prompt to plug in SD card directly after firmware flash
 
 # TODO: mount SD card, copy files, unmount, prompt user to eject
 # or better yet, just arrange some files to copy over drag'n'drop
@@ -31,12 +32,12 @@ cp -R ./flipper-music-files/* ./flipper-root/music_player/
 echo -e "Done.\nCopy the contents of /flipper-root/ to root of SD card.\n"
 
 # push update back to repo
-echo "Committing submodule changes..."
-git commit -a -m "updated with script"
+#echo "Committing submodule changes..."
+#git commit -a -m "updated with script"
 
 # run in VScode or this won't work
-echo "Pushing changes back to GitHub (only works in VScode terminal)."
-git push
+#echo "Pushing changes back to GitHub (only works in VScode terminal)."
+#git push
 
 # cleanup (but only after copying has taken place)
 #rm -rf flipper-zero
