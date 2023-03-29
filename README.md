@@ -4,6 +4,9 @@ script and metarepo for updating my Flipper Zero
 ## Cloning
 `git clone https://github.com/thomhastings/flipdate --recurse-submodules`  
 
+## Usage
+Run `update-flipper.sh`, then copy the contents of the `flipper-root` folder via drag'n'drop over to a typically formatted Flipper SD card filesystem. (For speed plug in the SD card directly, don't use qFlipper, it takes forever.)
+
 ### Background
 I wanted to stop doing all this manually. So I tried to automate at least part of it.
 
@@ -11,15 +14,15 @@ I wanted to stop doing all this manually. So I tried to automate at least part o
 The following repositories are included via `git submodule`:
 * [`Flipper-IRDB` Many IR dumps for various appliances](https://github.com/logickworkshop/Flipper-IRDB)
 * [`Flipper_Zero-BadUsb` Yet another BadUSB collection](https://github.com/UNC0V3R3D/Flipper_Zero-BadUsb)
-* [`unleashed-extra-pack` Extra apps pack for Unleashed firmware](https://github.com/xMasterX/unleashed-extra-pack)
+* [`all-the-plugins` Extra apps pack for Unleashed firmware](https://github.com/xMasterX/all-the-plugins)
 * [`flipper-music-files` Small collection of music files for FlipperZero Music Player](https://github.com/Tonsil/flipper-music-files)
 
 ### Update Repositories
 The included repositories can be updated by running the command `git submodule update --remote`.
 
 ## update-flipper.sh
-This will update the included repositories using the command described above.  
-_TODO: Copy their contents to a correctly formatted Flipper Zero microSD card._
+This will update the included repositories using the command described above, and copy the contents of each to `flipper-root`, the contents of which should then be copied via drag'n'drop over a typically formatted Flipper SD card filesystem. (For speed plug in the SD card directly, don't use qFlipper, it takes forever.)  
+_TODO: Automatically mount and copy contents to a correctly formatted Flipper Zero microSD card, merging folders and skipping where appropriate._
 
 #### Disclaimer
 Only use firmware that is legal in your country.
