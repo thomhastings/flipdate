@@ -5,7 +5,7 @@ script and metarepo for updating my Flipper Zero
 `git clone https://github.com/thomhastings/flipdate --recurse-submodules`  
 
 ## Usage
-Run `update-flipper.sh`, then copy the contents of the `flipper-root` folder via drag'n'drop over to a typically formatted Flipper SD card filesystem. (For speed plug in the SD card directly, don't use qFlipper, it takes forever.)
+Run `update-flipper.sh`, then copy the contents of the `flipper-root` folder via drag'n'drop over to a typically formatted Flipper SD card filesystem. There should already be folders of the same name to merge contents with. For speed plug in the SD card directly, don't use qFlipper, it takes forever.
 
 ### Background
 I wanted to stop doing all this manually. So I tried to automate at least part of it.
@@ -21,7 +21,7 @@ The following repositories are included via `git submodule`:
 The included repositories can be updated by running the command `git submodule update --remote`.
 
 ## update-flipper.sh
-This will update the included repositories using the command described above, and copy the contents of each to `flipper-root`, the contents of which should then be copied via drag'n'drop over a typically formatted Flipper SD card filesystem. (For speed plug in the SD card directly, don't use qFlipper, it takes forever.)  
+This will update the included repositories using the command described above, and copy the contents of each to `flipper-root`, the contents of which should then be copied via drag'n'drop over a typically formatted Flipper SD card filesystem.
 _TODO: Automatically mount and copy contents to a correctly formatted Flipper Zero microSD card, merging folders and skipping where appropriate._
 
 #### Disclaimer
