@@ -41,4 +41,4 @@ echo -e "Done.\nCopy the contents of /flipper-root/ to root of SD card.\n"
 
 # cleanup (but only after copying has taken place)
 #rm -rf flipper-zero
-# Q: if a file is deleted from the repo, how to delete from Flipper Zero itself?
+# Q: if a file is deleted from the repos, how to delete from Flipper Zero itself?
