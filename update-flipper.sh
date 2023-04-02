@@ -26,9 +26,10 @@ cp -R ./Flipper_Zero-BadUsb/BadUsb-Collection ./flipper-root/badusb/
 echo "Copying infrared database..."
 mkdir -p ./flipper-root/infrared
 cp -R ./Flipper-IRDB/* ./flipper-root/infrared/
+rm ./flipper-root/infrared/README.md
 echo "Copying music files..."
 mkdir -p ./flipper-root/music_player
-cp -R ./flipper-music-files/* ./flipper-root/music_player/
+cp -R ./flipper-music-files/*.fmf ./flipper-root/music_player/
 echo -e "Done.\nCopy the contents of /flipper-root/ to root of SD card.\n"
 
 # push update back to repo
