@@ -12,6 +12,7 @@ I wanted to stop doing all this manually. So I tried to automate at least part o
 
 ## Included Repositories
 The following repositories are included via `git submodule`:
+* The `Sub-GHz` folder from [`Flipper` (UberGuidoZ Playground)](https://github.com/UberGuidoZ/Flipper)
 * [`Flipper-IRDB` Many IR dumps for various appliances](https://github.com/logickworkshop/Flipper-IRDB)
 * [`Flipper_Zero-BadUsb` Yet another BadUSB collection](https://github.com/UNC0V3R3D/Flipper_Zero-BadUsb)
 * [`all-the-plugins` Extra apps pack for Unleashed firmware](https://github.com/xMasterX/all-the-plugins)
