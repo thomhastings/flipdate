@@ -22,11 +22,13 @@ mkdir -p ./flipper-root
 cp -R ./all-the-plugins/apps ./flipper-root/
 echo "Copying BadUSB scripts..."
 mkdir -p ./flipper-root/badusb
-cp -R ./Flipper_Zero-BadUsb/BadUsb-Collection ./flipper-root/badusb/
+cp -R ./Flipper_Zero-BadUsb/BadUsb-Collection ./flipper-root/badusb/    # Consider copying UberGuidoZ's BadUSB as well?
 echo "Copying infrared database..."
 mkdir -p ./flipper-root/infrared
 cp -R ./Flipper-IRDB/* ./flipper-root/infrared/
-rm ./flipper-root/infrared/README.md
+echo "Copying Sub-GHz database..."
+mkdir -p ./flipper-root/subghz
+cp -R ./Flipper/Sub-GHz/* ./flipper-root/subghz/
 echo "Copying music files..."
 mkdir -p ./flipper-root/music_player
 cp -R ./flipper-music-files/*.fmf ./flipper-root/music_player/

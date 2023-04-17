@@ -10,3 +10,6 @@
 [submodule "all-the-plugins"]
 	path = all-the-plugins
 	url = https://github.com/xMasterX/all-the-plugins
+[submodule "Flipper"]
+	path = Flipper
+	url = https://github.com/UberGuidoZ/Flipper.git
