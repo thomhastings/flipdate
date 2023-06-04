@@ -32,6 +32,9 @@ cp -R ./Flipper/Sub-GHz/* ./flipper-root/subghz/
 echo "Copying music files..."
 mkdir -p ./flipper-root/music_player
 cp -R ./flipper-music-files/*.fmf ./flipper-root/music_player/
+echo "Copying amiibos..."
+mkdir -p ./flipper-root/nfc
+cp -R ./FlipperAmiibo ./flipper-root/nfc/amiibo
 echo -e "Done.\nCopy the contents of /flipper-root/ to root of SD card.\n"
 
 # push update back to repo
