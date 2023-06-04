@@ -13,6 +13,3 @@
 [submodule "Flipper"]
 	path = Flipper
 	url = https://github.com/UberGuidoZ/Flipper.git
-[submodule "FlipperAmiibo"]
-	path = FlipperAmiibo
-
