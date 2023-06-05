@@ -7,7 +7,7 @@ _**Make sure to get the submodules with `--recurse-submodules`.**_
 
 ## Usage
 * *(Optional)* Update to the latest version of [`unleashed-firmware`](https://github.com/DarkFlippers/unleashed-firmware), making sure _**not**_ to use the `e` variant. (The extra apps are included in this repo, so if you use both `e` and this you'll get doubles of every 'extra' app.)
-* Run `update-flipper.sh`, then copy the contents of the `flipper-root` folder via drag'n'drop over to a typically formatted Flipper SD card filesystem. There should already be folders of the same name to _**merge**_ contents with. For speed plug in the SD card directly, don't use qFlipper, it takes forever.
+* Run `update-flipper.sh`, then copy the contents of the `flipper-root` folder via drag'n'drop over to a typically formatted Flipper SD card filesystem. There should already be folders of the same name to _**merge**_ contents with. (Make sure to merge to not lose your existing data!) For speed plug in the SD card directly, don't use qFlipper, it takes forever.
 
 ### Background
 I wanted to stop doing all this manually. So I tried to automate at least part of it.
