@@ -19,7 +19,7 @@ The following repositories are included via `git submodule`:
 * [`Flipper_Zero-BadUsb` Yet another BadUSB collection](https://github.com/UNC0V3R3D/Flipper_Zero-BadUsb)
 * [`FlipperAmiibo` For my friends who have a Nintendo Switch](https://github.com/Gioman101/FlipperAmiibo)
 * [`all-the-plugins` Extra apps pack for Unleashed firmware](https://github.com/xMasterX/all-the-plugins)
-* [`flipper-music-files` Small collection of music files for FlipperZero Music Player](https://github.com/Tonsil/flipper-music-files
+* [`flipper-music-files` Small collection of music files for FlipperZero Music Player](https://github.com/Tonsil/flipper-music-files)
 
 ### Update Repositories
 The included repositories can be updated by running the command `git submodule update --remote`.
